@@ -1,0 +1,26 @@
+.wild {
+    color: blue;
+}
+
+[aria-hidden='true'] {
+    background: aquamarine;
+}
+
+button {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 5px 40px;
+    border: 1px solid #a9d8b2;
+    color: #57ad68;
+    background: #fff;
+    border-radius: 42px;
+    background-repeat: no-repeat;
+    background-position: 97% center;
+}
+
+button:hover,
+button:active {
+    color: #468d54;
+}
