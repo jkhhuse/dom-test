@@ -1,10 +1,9 @@
-import { Component, ElementRef, OnInit, AfterViewInit } from '@angular/core';
+import { Directive, ElementRef, OnInit, AfterViewInit } from '@angular/core';
 
-@Component({
-  selector: '[appDemo6]',
-  template: `<div>abc</div>`
+@Directive({
+  selector: '[appDemo6]'
 })
-export class Demo6Component implements OnInit, AfterViewInit {
+export class Demo6Directive implements OnInit, AfterViewInit {
 
   constructor(private el: ElementRef) {
 
