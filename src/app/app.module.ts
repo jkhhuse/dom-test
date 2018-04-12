@@ -10,6 +10,7 @@ import { Demo4Directive } from './demo4/demo4.directive';
 import { Demo5Directive } from './demo5/demo5.directive';
 import { Demo6Directive } from './demo6/demo6.directive';
 import { Demo7Component } from './demo7/demo7.component';
+import { Demo8Component } from './demo8/demo8.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { Demo7Component } from './demo7/demo7.component';
     Demo4Directive,
     Demo5Directive,
     Demo6Directive,
-    Demo7Component
+    Demo7Component,
+    Demo8Component
   ],
   imports: [
     BrowserModule

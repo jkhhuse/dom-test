@@ -1,0 +1,10 @@
+<!-- <div *ngIf="lessons else loading">
+    test
+</div> -->
+<!-- 使用if/else表达式或者ngTemplateOutlet时，ng-template被嵌入 -->
+<ng-container *ngTemplateOutlet="loading"></ng-container>
+<ng-template #loading>
+    <div>
+        I am demo8
+    </div>
+</ng-template>
